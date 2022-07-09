@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\xunit.core.2.3.1\build\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.3.1\build\xunit.core.props')" />
+  <Import Project="..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE9A7533-5942-40B6-9D69-C0EBEEBC5F23}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Demo.LearnByDoing.Tests</RootNamespace>
+    <AssemblyName>Demo.LearnByDoing.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Demo.LearnByDoing.Tests.CodeSignal.InterviewPractice.DfsBfs.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.abstractions.2.0.1\lib\net35\xunit.abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.assert, Version=2.3.1.3858, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.assert.2.3.1\lib\netstandard1.1\xunit.assert.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.core, Version=2.3.1.3858, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.core.2.3.1\lib\netstandard1.1\xunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.execution.desktop, Version=2.3.1.3858, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.execution.2.3.1\lib\net452\xunit.execution.desktop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\BellmanFordFromScratchTest.cs" />
+    <Compile Include="Algorithms\BellmanFordRepriseTest.cs" />
+    <Compile Include="Algorithms\GraphDepthFirstSearchTest.cs" />
+    <Compile Include="Algorithms\DijkstraRepriseTest.cs" />
+    <Compile Include="Algorithms\GraphBreadthFirstSearchTest.cs" />
+    <Compile Include="Algorithms\LevenshteinDistanceTest.cs" />
+    <Compile Include="Algorithms\LinkedList\ReverseLinkedListTest.cs" />
+    <Compile Include="Algorithms\MakePalindromeTest.cs" />
+    <Compile Include="Algorithms\MergeSortTest.cs" />
+    <Compile Include="Algorithms\PrimsAlgorithmTest.cs" />
+    <Compile Include="Algorithms\Sorting\SortingTest.cs" />
+    <Compile Include="Algorithms\Sorting\TopologicalSortingTest.cs" />
+    <Compile Include="Algorithms\TopologicalGraphSortTest.cs" />
+    <Compile Include="Algorithms\ZAlgorithmTest.cs" />
+    <Compile Include="Chapter01\Chapter1_1.cs" />
+    <Compile Include="Chapter01\Chapter1_1Test.cs" />
+    <Compile Include="Chapter01\Chapter1_2.cs" />
+    <Compile Include="Chapter01\Chapter1_2Data.cs" />
+    <Compile Include="Chapter01\Chapter1_2Test.cs" />
+    <Compile Include="Chapter01\Chapter1_3.cs" />
+    <Compile Include="Chapter01\Chapter1_3Data.cs" />
+    <Compile Include="Chapter01\Chapter1_3Test.cs" />
+    <Compile Include="Chapter01\Chapter1_4.cs" />
+    <Compile Include="Chapter01\Chapter1_4Data.cs" />
+    <Compile Include="Chapter01\Chapter1_4Test.cs" />
+    <Compile Include="Chapter01\Chapter1_5.cs" />
+    <Compile Include="Chapter01\Chapter1_5Test.cs" />
+    <Compile Include="Chapter01\Chapter1_6.cs" />
+    <Compile Include="Chapter01\Chapter1_6Data.cs" />
+    <Compile Include="Chapter01\Chapter1_6Test.cs" />
+    <Compile Include="Chapter01\Chapter1_7Test.cs" />
+    <Compile Include="Chapter01\Chapter1_8.cs" />
+    <Compile Include="Chapter01\Chapter1_8Test.cs" />
+    <Compile Include="Chapter01\Chapter1_9Test.cs" />
+    <Compile Include="Chapter02\Chapter2_1.cs" />
+    <Compile Include="Chapter02\Chapter2_1Data.cs" />
+    <Compile Include="Chapter02\Chapter2_1Test.cs" />
+    <Compile Include="Chapter02\Chapter2_2.cs" />
+    <Compile Include="Chapter02\Chapter2_2Data.cs" />
+    <Compile Include="Chapter02\Chapter2_2Data2.cs" />
+    <Compile Include="Chapter02\Chapter2Test.cs" />
+    <Compile Include="Chapter02\Chapter2TestBase.cs" />
+    <Compile Include="Chapter02\Chapter2_3.cs" />
+    <Compile Include="Chapter02\Chapter2Data.cs" />
+    <Compile Include="Chapter02\Chapter2_3Test.cs" />
+    <Compile Include="Chapter02\Chapter2_4Test.cs" />
+    <Compile Include="Chapter02\Chapter2_5.cs" />
+    <Compile Include="Chapter02\Chapter2_5Data.cs" />
+    <Compile Include="Chapter02\Chapter2_5Test.cs" />
+    <Compile Include="Chapter02\Chapter2_6.cs" />
+    <Compile Include="Chapter02\Chapter2_6Data.cs" />
+    <Compile Include="Chapter02\Chapter2_6Test.cs" />
+    <Compile Include="Chapter02\Chapter2_7.cs" />
+    <Compile Include="Chapter02\Chapter2_7Data.cs" />
+    <Compile Include="Chapter02\Chapter2_7Test.cs" />
+    <Compile Include="Chapter02\Chapter2_8Test.cs" />
+    <Compile Include="Chapter02\LinkedListWithInit.cs" />
+    <Compile Include="Chapter02\Node.cs" />
+    <Compile Include="Chapter04\Chapter4_2Test.cs" />
+    <Compile Include="Chapter04\Graph.cs" />
+    <Compile Include="Chapter04\Node.cs" />
+    <Compile Include="Chapter04\Chapter4BaseTestData.cs" />
+    <Compile Include="Chapter05\Chapter5_1Test.cs" />
+    <Compile Include="Chapter05\Chapter5_2Test.cs" />
+    <Compile Include="Chapter05\Chapter5_3.cs" />
+    <Compile Include="Chapter05\Chapter5_3Data.cs" />
+    <Compile Include="Chapter05\Chapter5_3Test.cs" />
+    <Compile Include="Chapter05\Chapter5_6Test.cs" />
+    <Compile Include="Chapter05\CommonBitManipulationTest.cs" />
+    <Compile Include="Chapter07\Chapter7_2Main.cs" />
+    <Compile Include="Chapter07\Chapter7_2Test.cs" />
+    <Compile Include="Chapter04\Chapter4_1Test.cs" />
+    <Compile Include="Chapter10\Chapter10_1Main.cs" />
+    <Compile Include="CodeSignal\Arcade\SmoothSailing\ReverseParenthesesTest.cs" />
+    <Compile Include="CodeSignal\Arcade\ThroughTheFog\StringsRearrangementTest.cs" />
+    <Compile Include="CodeSignal\Arrays\FirstDuplicateTest.cs" />
+    <Compile Include="CodeSignal\Arrays\FirstNotRepeatingCharacterTest.cs" />
+    <Compile Include="CodeSignal\Challenges\LastDigitDiffZeroTest.cs" />
+    <Compile Include="CodeSignal\Challenges\N7MTest.cs" />
+    <Compile Include="CodeSignal\Challenges\PrefixSumsTest.cs" />
+    <Compile Include="CodeSignal\Challenges\SortByZTest.cs" />
+    <Compile Include="CodeSignal\CommonTechniques\SumInRangeTest.cs" />
+    <Compile Include="CodeSignal\Hashtable\FindLongestSubArrayBySumTest.cs" />
+    <Compile Include="CodeSignal\Hashtable\PossibleSumsTest.cs" />
+    <Compile Include="CodeSignal\Hashtable\ProductExceptSelfTest.cs" />
+    <Compile Include="CodeSignal\InterviewPractice\BackTracking\ClimbingStairCaseTest.cs" />
+    <Compile Include="CodeSignal\InterviewPractice\DfsBfs\LongestPathTest.cs" />
+    <Compile Include="CodeWars\Beta\ComGovOrgFirstTest.cs" />
+    <Compile Include="CodeWars\Beta\TheABProblemTest.cs" />
+    <Compile Include="CodeWars\Kyu4\AddingBigNumbersTest.cs" />
+    <Compile Include="CodeWars\Kyu4\BattleShipsSunkDamagedOrNotTouchedTest.cs" />
+    <Compile Include="CodeWars\Kyu4\CatchingCarMileageNumbersTest.cs" />
+    <Compile Include="CodeWars\Kyu4\IPValidationTest.cs" />
+    <Compile Include="CodeWars\Kyu4\NextSmallerNumberWithTheSameDigitsTest.cs" />
+    <Compile Include="CodeWars\Kyu4\NonBouncyNumberCountTest.cs" />
+    <Compile Include="CodeWars\Kyu4\PyramidSlideDownTest.cs" />
+    <Compile Include="CodeWars\Kyu4\RangeExtractionTest.cs" />
+    <Compile Include="CodeWars\Kyu4\ReversePolishNotationCalculatorTest.cs" />
+    <Compile Include="CodeWars\Kyu4\SumStringsAsNumbersTest.cs" />
+    <Compile Include="CodeWars\Kyu5\BasicNicoVariationTest.cs" />
+    <Compile Include="CodeWars\Kyu5\BitCalculatorTest.cs" />
+    <Compile Include="CodeWars\Kyu5\BreakCamelCaseTest.cs" />
+    <Compile Include="CodeWars\Kyu5\ComputeTheLargestSumOfAllContiguousSubsequencesTest.cs" />
+    <Compile Include="CodeWars\Kyu5\ConvertStringToCamelCaseTest.cs" />
+    <Compile Include="CodeWars\Kyu5\DidIFinishMySudokuTest.cs" />
+    <Compile Include="CodeWars\Kyu5\DirectionsReductionTest.cs" />
+    <Compile Include="CodeWars\Kyu5\DoubleColaTest.cs" />
+    <Compile Include="CodeWars\Kyu5\FindTheMissingTermInAnArithmeticProgressionTest.cs" />
+    <Compile Include="CodeWars\Kyu5\FirstNonRepeatingLetterTest.cs" />
+    <Compile Include="CodeWars\Kyu5\FloodFillTest.cs" />
+    <Compile Include="CodeWars\Kyu5\GreedIsGoodTest.cs" />
+    <Compile Include="CodeWars\Kyu5\HumanReadableTimeTest.cs" />
+    <Compile Include="CodeWars\Kyu5\Int32ToIP4Test.cs" />
+    <Compile Include="CodeWars\Kyu5\MixbonacciTest.cs" />
+    <Compile Include="CodeWars\Kyu5\OnesAndZeroesAndWildcardsTest.cs" />
+    <Compile Include="CodeWars\Kyu5\PaginationHelperTest.cs" />
+    <Compile Include="CodeWars\Kyu5\Rot13Test.cs" />
+    <Compile Include="CodeWars\Kyu5\ScrambliesTest.cs" />
+    <Compile Include="CodeWars\Kyu5\ScytaleEncoderDecoderTest.cs" />
+    <Compile Include="CodeWars\Kyu5\SimpleFun155PackManTest.cs" />
+    <Compile Include="CodeWars\Kyu5\SimpleFun166BestMatchTest.cs" />
+    <Compile Include="CodeWars\Kyu5\SimplePigLatinTest.cs" />
+    <Compile Include="CodeWars\Kyu5\TicTacToeCheckerTest.cs" />
+    <Compile Include="CodeWars\Kyu5\ValidParenthesesTest.cs" />
+    <Compile Include="CodeWars\Kyu5\WeightForWeightTest.cs" />
+    <Compile Include="CodeWars\Kyu5\WhatDoesntBelongToTheseTest.cs" />
+    <Compile Include="CodeWars\Kyu5\WhereMyAnagramsAtTest.cs" />
+    <Compile Include="CodeWars\Kyu6\AFunctionalDeckOfCardsTest.cs" />
+    <Compile Include="CodeWars\Kyu6\AreTheyTheSameTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ArrayDeepCountTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ArrayDiffTest.cs" />
+    <Compile Include="CodeWars\Kyu6\BingoCardTest.cs" />
+    <Compile Include="CodeWars\Kyu6\BuildTowerTest.cs" />
+    <Compile Include="CodeWars\Kyu6\CondiCipherTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ConsecutiveStringsTest.cs" />
+    <Compile Include="CodeWars\Kyu6\DeleteOccurrencesOfAnElementIfItOccursMoreThanNTimesTest.cs" />
+    <Compile Include="CodeWars\Kyu6\DetectPangramTest.cs" />
+    <Compile Include="CodeWars\Kyu6\DoesMNumberLookBigInThisTest.cs" />
+    <Compile Include="CodeWars\Kyu6\DubstepTest.cs" />
+    <Compile Include="CodeWars\Kyu6\DuplicateEncoderTest.cs" />
+    <Compile Include="CodeWars\Kyu6\EurekaTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ExtensionGroupWhileConsecutiveByTheConditionItemsTest.cs" />
+    <Compile Include="CodeWars\Kyu6\FilePathOperationsTest.cs" />
+    <Compile Include="CodeWars\Kyu6\FindTheOddIntTest.cs" />
+    <Compile Include="CodeWars\Kyu6\FormatWordsIntoASentenceTest.cs" />
+    <Compile Include="CodeWars\Kyu6\FunWithTreesMaxSumTest.cs" />
+    <Compile Include="CodeWars\Kyu6\GoodVsEvilTest.cs" />
+    <Compile Include="CodeWars\Kyu6\HelpTheBookSellerTest.cs" />
+    <Compile Include="CodeWars\Kyu6\HighestScoringWordTest.cs" />
+    <Compile Include="CodeWars\Kyu6\IntegerDepthTest.cs" />
+    <Compile Include="CodeWars\Kyu6\IQTestTest.cs" />
+    <Compile Include="CodeWars\Kyu6\LinkedListsInsertNthNodeTest.cs" />
+    <Compile Include="CodeWars\Kyu6\LongestPalindromeTest.cs" />
+    <Compile Include="CodeWars\Kyu6\MakeTheDeadFishSwimTest.cs" />
+    <Compile Include="CodeWars\Kyu6\MazeRunnerTest.cs" />
+    <Compile Include="CodeWars\Kyu6\MrSafetysTreasuresTest.cs" />
+    <Compile Include="CodeWars\Kyu6\MultiplesOf3And5Test.cs" />
+    <Compile Include="CodeWars\Kyu6\ParseALinkedListFromAStringTest.cs" />
+    <Compile Include="CodeWars\Kyu6\PersistentBuggerTest.cs" />
+    <Compile Include="CodeWars\Kyu6\PrizeDrawTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ReducingByStepsTest.cs" />
+    <Compile Include="CodeWars\Kyu6\RememberTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ReplaceWithAlphabetPositionTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ReverseASinglyLinkedListTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ReversedWordsTest.cs" />
+    <Compile Include="CodeWars\Kyu6\SortTheOddTest.cs" />
+    <Compile Include="CodeWars\Kyu6\SplitOddAndEvenTest.cs" />
+    <Compile Include="CodeWars\Kyu6\StopgninnipSMysdroWTest.cs" />
+    <Compile Include="CodeWars\Kyu6\StreetFighter2CharacterSelectionTest.cs" />
+    <Compile Include="CodeWars\Kyu6\StringBreakersTest.cs" />
+    <Compile Include="CodeWars\Kyu6\StringLetterCountingTest.cs" />
+    <Compile Include="CodeWars\Kyu6\SumTheTreeTest.cs" />
+    <Compile Include="CodeWars\Kyu6\TakeATenMinuteWalkTest.cs" />
+    <Compile Include="CodeWars\Kyu6\TheBookOfMormonTest.cs" />
+    <Compile Include="CodeWars\Kyu6\TriangleNumberCheckTest.cs" />
+    <Compile Include="CodeWars\Kyu6\TribonacciSequenceTest.cs" />
+    <Compile Include="CodeWars\Kyu6\WhichAreInTest.cs" />
+    <Compile Include="CodeWars\Kyu6\WhoLikesItTest.cs" />
+    <Compile Include="CodeWars\Kyu6\WordsToHexTest.cs" />
+    <Compile Include="CodeWars\Kyu6\YourOrderPleaseTest.cs" />
+    <Compile Include="CodeWars\Kyu6\ZeroFillForTheQueenTest.cs" />
+    <Compile Include="CodeWars\Kyu7\AllInclusiveTest.cs" />
+    <Compile Include="CodeWars\Kyu7\CartesianNeighborsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\CompareAStringBySumOfCharsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\ComplementaryDnaTest.cs" />
+    <Compile Include="CodeWars\Kyu7\ConvertALinkedListToAStringTest.cs" />
+    <Compile Include="CodeWars\Kyu7\CountingArrayElementsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\CountTheDigitTest.cs" />
+    <Compile Include="CodeWars\Kyu7\DisemvowelTrollsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\FactorialFactoryTest.cs" />
+    <Compile Include="CodeWars\Kyu7\FindTheDuplicatedNumberInAConsecutiveUnsortedListTest.cs" />
+    <Compile Include="CodeWars\Kyu7\FindTheStrayNumberTest.cs" />
+    <Compile Include="CodeWars\Kyu7\FindTheVowelsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\FriendOrFoeTest.cs" />
+    <Compile Include="CodeWars\Kyu7\GaussNeedsHelpTest.cs" />
+    <Compile Include="CodeWars\Kyu7\GetTheMiddleCharacterTest.cs" />
+    <Compile Include="CodeWars\Kyu7\GreatestCommonDivisorTest.cs" />
+    <Compile Include="CodeWars\Kyu7\HeadTailInitAndLastTest.cs" />
+    <Compile Include="CodeWars\Kyu7\IndexedCapitalizationTest.cs" />
+    <Compile Include="CodeWars\Kyu7\IsogramsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\IsThisATriangleTest.cs" />
+    <Compile Include="CodeWars\Kyu7\JadenCasingStringsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\MostDigitsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\MoveAllVowelsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\MovesInSquaredStringsTest.cs" />
+    <Compile Include="CodeWars\Kyu7\NiceArrayTest.cs" />
+    <Compile Include="CodeWars\Kyu7\RegexValidatePinCodeTest.cs" />
+    <Compile Include="CodeWars\Kyu7\SevenAte9Test.cs" />
+    <Compile Include="CodeWars\Kyu7\SortArrayByStringLengthTest.cs" />
+    <Compile Include="CodeWars\Kyu7\SumOfAllTheMultiplesOf3Or5Test.cs" />
+    <Compile Include="CodeWars\Kyu7\SumOfASequenceTest.cs" />
+    <Compile Include="CodeWars\Kyu7\SumOfCubesTest.cs" />
+    <Compile Include="CodeWars\Kyu7\SumTimesTablesTest.cs" />
+    <Compile Include="CodeWars\Kyu7\SymbolsCountedTest.cs" />
+    <Compile Include="CodeWars\Kyu7\TwoToOneTest.cs" />
+    <Compile Include="CodeWars\Kyu7\UnflattenAListEasyTest.cs" />
+    <Compile Include="CodeWars\Kyu7\WeHaveLiftoffTest.cs" />
+    <Compile Include="CodeWars\Kyu7\ZeroBalancedArrayTest.cs" />
+    <Compile Include="CodeWars\Kyu8\BeginnerSeriesClockTest.cs" />
+    <Compile Include="CodeWars\Kyu8\CalculateBmiTest.cs" />
+    <Compile Include="CodeWars\Kyu8\ConvertNumberToReversedArrayOfDigitsTest.cs" />
+    <Compile Include="CodeWars\Kyu8\CountByXTest.cs" />
+    <Compile Include="CodeWars\Kyu8\CountOfpositivesSumOfNegativesTest.cs" />
+    <Compile Include="CodeWars\Kyu8\DuckDuckGooseTest.cs" />
+    <Compile Include="CodeWars\Kyu8\FilterOutTheGeeseTest.cs" />
+    <Compile Include="CodeWars\Kyu8\FindTheFirstNonConsecutiveNumberTest.cs" />
+    <Compile Include="CodeWars\Kyu8\RemoveAllExclamationMarksFromTheEndOfSentenceTest.cs" />
+    <Compile Include="DataStructure\LinkedList\ReverseSinglyLinkedListTest.cs" />
+    <Compile Include="DataStructure\Tree\BinaryTreeTraversalsTest.cs" />
+    <Compile Include="DataStructure\TriestTest.cs" />
+    <Compile Include="FEM\Algorithms\BinaryTrees\BstTest.cs" />
+    <Compile Include="FEM\Algorithms\BinaryTrees\BstTraverseTest.cs" />
+    <Compile Include="FEM\Algorithms\DataStructures\HashtableTest.cs" />
+    <Compile Include="FEM\Algorithms\Recursion\ExerciseTest.cs" />
+    <Compile Include="FEM\Algorithms\Sorting\SortTest.cs" />
+    <Compile Include="GeeksForGeeks\DynamicProgramming\BasicConcepts\01 Overlapping Subproblems Property.cs" />
+    <Compile Include="GeeksForGeeks\DynamicProgramming\BasicConcepts\03 How to solve a Dynamic Programming Problem.cs" />
+    <Compile Include="GeeksForGeeks\DynamicProgramming\BasicProblems\02_Binomial Coefficient.cs" />
+    <Compile Include="GeeksForGeeks\DynamicProgramming\BasicProblems\03 Longest Common Subsequence Test.cs" />
+    <Compile Include="GeeksForGeeks\DynamicProgramming\BasicProblems\LongestCommonSubsequenceTest.cs" />
+    <Compile Include="GeeksForGeeks\GraphDataStructureAndAlgorithms\IntroductionToDfsAndBfs\01_Graph and its representations.cs" />
+    <Compile Include="GeeksForGeeks\GraphDataStructureAndAlgorithms\IntroductionToDfsAndBfs\02_Breadth First Traversal or BFS for a Graph.cs" />
+    <Compile Include="InterviewCake\MeshMessageTest.cs" />
+    <Compile Include="InterviewCake\Question025Test.cs" />
+    <Compile Include="InterviewCake\Question001Test.cs" />
+    <Compile Include="InterviewCake\Question002Test.cs" />
+    <Compile Include="InterviewCake\Question003Test.cs" />
+    <Compile Include="InterviewCake\Question004Test.cs" />
+    <Compile Include="InterviewCake\Question005Test.cs" />
+    <Compile Include="InterviewCake\Question006Test.cs" />
+    <Compile Include="InterviewCake\Question007Test.cs" />
+    <Compile Include="InterviewCake\Question008Test.cs" />
+    <Compile Include="InterviewCake\Question009Test.cs" />
+    <Compile Include="InterviewCake\Question012Test.cs" />
+    <Compile Include="InterviewCake\Question013Test.cs" />
+    <Compile Include="InterviewCake\Question014Test.cs" />
+    <Compile Include="InterviewCake\Question015Test.cs" />
+    <Compile Include="InterviewCake\Question016Test.cs" />
+    <Compile Include="InterviewCake\Question019Test.cs" />
+    <Compile Include="InterviewCake\Question020Test.cs" />
+    <Compile Include="InterviewCake\Question021Test.cs" />
+    <Compile Include="InterviewCake\Question022Test.cs" />
+    <Compile Include="InterviewCake\Question023Test.cs" />
+    <Compile Include="InterviewCake\Question024Test.cs" />
+    <Compile Include="InterviewCake\Question026Test.cs" />
+    <Compile Include="InterviewCake\Question027Test.cs" />
+    <Compile Include="InterviewCake\Question028Test.cs" />
+    <Compile Include="InterviewCake\Question029Test.cs" />
+    <Compile Include="InterviewCake\Question031Test.cs" />
+    <Compile Include="InterviewCake\Question030Test.cs" />
+    <Compile Include="InterviewCake\Question032Test.cs" />
+    <Compile Include="InterviewCake\Question033Test.cs" />
+    <Compile Include="InterviewCake\Question034Test.cs" />
+    <Compile Include="InterviewCake\Question035Test.cs" />
+    <Compile Include="InterviewCake\Question040Test.cs" />
+    <Compile Include="InterviewCake\Question043Test.cs" />
+    <Compile Include="InterviewCake\Question046Test.cs" />
+    <Compile Include="LeetCode\Hard\LruCacheTest.cs" />
+    <Compile Include="LeetCode\Medium\AddTwoNumbersTest.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\DoublyLinkedListTest.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\DoublySungLinkedList.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\LinkedListTest.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\QueueTest.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\SungGraphTest.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\SungLinkedList.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\StackTest.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\SungQueue.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\SungStack.cs" />
+    <Compile Include="MissionInterview\01-DataStructures\SungTreeTest.cs" />
+    <Compile Include="PalinedromeTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\BalancedTreeCheckerTest.cs" />
+    <Compile Include="DataStructure\Tree\BinaryMinHeap.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\BinarySearchTreeCheckTest.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\HungryRabbitTest.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\KClosePointsToOriginTest.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\MaxHeapTest.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\MaxNumbersInSquaresToTravelTest.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\MinHeapTest.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Asana\TopologicalSortTest.cs" />
+    <Compile Include="RandomStuff\GraphTraversalFromScratchTest.cs" />
+    <Compile Include="RandomStuff\BinaryPrintTest.cs" />
+    <Compile Include="RandomStuff\CountWayTest.cs" />
+    <Compile Include="RandomStuff\FindDifferencesOnInterviewingIOTest.cs" />
+    <Compile Include="RandomStuff\FogCreekSupportEngineer1Test.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Zocdoc\FindLcaInBinaryTreeTest.cs" />
+    <Compile Include="RandomStuff\Glassdoor\Zocdoc\PalindromeCheckTest.cs" />
+    <Compile Include="RandomStuff\MergeSortTest.cs" />
+    <Compile Include="RandomStuff\PalindromeUsingXorTest.cs" />
+    <Compile Include="RandomStuff\PermutablePrimesTest.cs" />
+    <Compile Include="RandomStuff\PermutateTest.cs" />
+    <Compile Include="RandomStuff\QuickSortTest.cs" />
+    <Compile Include="RandomStuff\RecursionTest.cs" />
+    <Compile Include="RandomStuff\TreeNodeAncestorDecendentCheckTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.LearnByDoing.Core\Demo.LearnByDoing.Core.csproj">
+      <Project>{dca6be29-c6cc-41de-b6a2-366c0b3bc945}</Project>
+      <Name>Demo.LearnByDoing.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo.LearnByDoing.General\Demo.LearnByDoing.General.csproj">
+      <Project>{33b2ca53-9e72-42e9-a5cb-a434fc0a14cc}</Project>
+      <Name>Demo.LearnByDoing.General</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\xunit.analyzers.0.8.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\xunit.core.2.3.1\build\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.3.1\build\xunit.core.props'))" />
+    <Error Condition="!Exists('..\packages\xunit.core.2.3.1\build\xunit.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.3.1\build\xunit.core.targets'))" />
+  </Target>
+  <Import Project="..\packages\xunit.core.2.3.1\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.3.1\build\xunit.core.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

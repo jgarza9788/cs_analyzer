@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Demo.LearnByDoing.-1461107074.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Demo.LearnByDoing.Chapter01" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Demo.LearnByDoing.Chapter01.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Demo.LearnByDoing.Core" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="BaseTest.cs" t="Include" />
+        <e p="BaseTestData.cs" t="Include" />
+        <e p="Demo.LearnByDoing.Core.csproj" t="IncludeRecursive" />
+        <e p="Graph" t="Include">
+          <e p="Edge.cs" t="Include" />
+          <e p="Graph.cs" t="Include" />
+          <e p="LICENSE" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="Vertex.cs" t="Include" />
+        </e>
+        <e p="PalinedromeChecker.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Demo.LearnByDoing.General" t="IncludeRecursive">
+        <e p="Algorithms" t="Include">
+          <e p="AStar" t="Include">
+            <e p="AStarProgram.cs" t="Include" />
+          </e>
+          <e p="BellmanFord" t="Include">
+            <e p="BellmanFordProgram.cs" t="Include" />
+          </e>
+          <e p="Dijkstra" t="Include">
+            <e p="DijkstraProgram.cs" t="Include" />
+          </e>
+          <e p="Graph" t="Include">
+            <e p="Edge.cs" t="Include" />
+            <e p="Graph.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
+          </e>
+          <e p="MaximumSubArraySum" t="Include">
+            <e p="MaximumSubArray.cs" t="Include" />
+            <e p="MaximumSubArraySumProgram.cs" t="Include" />
+          </e>
+          <e p="PalindromePartition" t="Include">
+            <e p="PalindromePartitionProgram.cs" t="Include" />
+          </e>
+        </e>
+        <e p="App.config" t="Include" />
+        <e p="ConvertIntegerToArrayProgram.cs" t="Include" />
+        <e p="Demo.LearnByDoing.General.csproj" t="IncludeRecursive" />
+        <e p="FindAllArrayElementsExistInAnotherArrayProgram.cs" t="Include" />
+        <e p="FindValueInSortedArrayProgram.cs" t="Include" />
+        <e p="FindingAllFactorsProgram.cs" t="Include" />
+        <e p="Graph" t="Include">
+          <e p="Graph.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+        </e>
+        <e p="LinkedList" t="Include">
+          <e p="Node.cs" t="Include" />
+          <e p="PrintForwardBackwardUsingRecursion.cs" t="Include" />
+          <e p="ReverseLinkedListIteratively.cs" t="Include" />
+          <e p="ReverseLinkedListProgram.cs" t="Include" />
+          <e p="ReverseLinkedListUsingRecursion.cs" t="Include" />
+        </e>
+        <e p="MinimalTreeGenerationProgram.cs" t="Include" />
+        <e p="ParsingNumbersPerDigitProgram.cs" t="Include" />
+        <e p="PrimeFactorizationProgram.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RemoveDuplicatesProgram.cs" t="Include" />
+        <e p="Search" t="Include">
+          <e p="FindingFirstLastOccurrenceOfANumberProgram.cs" t="Include" />
+          <e p="IKmpSearch.cs" t="Include" />
+          <e p="KmpAlgorithmProgram.cs" t="Include" />
+          <e p="KmpSearch.cs" t="Include" />
+          <e p="KmpSearchYouTube.cs" t="Include" />
+        </e>
+        <e p="Sort" t="Include">
+          <e p="BinarySearchFindFirstLastProgram.cs" t="Include" />
+          <e p="BinarySearchProgram.cs" t="Include" />
+          <e p="MergeSortProgram.cs" t="Include" />
+          <e p="MergeSortProgram2.cs" t="Include" />
+          <e p="QuickSortProgram.cs" t="Include" />
+          <e p="SelectionSortProgram.cs" t="Include" />
+          <e p="SortBasedOnAnotherListProgram.cs" t="Include" />
+          <e p="SortedArrayRotationCountProgram.cs" t="Include" />
+        </e>
+        <e p="Stack" t="Include">
+          <e p="CheckForBalancedParentheses.cs" t="Include" />
+        </e>
+        <e p="StringPermutationProgram.cs" t="Include" />
+        <e p="TowerOfHanoiProgram.cs" t="Include" />
+        <e p="Tree" t="Include">
+          <e p="BreadthFirstTraversal.cs" t="Include" />
+          <e p="LowestCommonAncestorProgram.cs" t="Include" />
+          <e p="TreeNode.cs" t="Include" />
+          <e p="TreeTraversalProgram.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Demo.LearnByDoing.MyCodeSchool" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Demo.LearnByDoing.MyCodeSchool.csproj" t="IncludeRecursive" />
+        <e p="ProgrammingInterviewQuestions" t="Include">
+          <e p="CountOccurencesTest.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Demo.LearnByDoing.Permutation" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Demo.LearnByDoing.Permutation.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Demo.LearnByDoing.Tests" t="IncludeRecursive">
+        <e p="Algorithms" t="Include">
+          <e p="BellmanFordFromScratchTest.cs" t="Include" />
+          <e p="BellmanFordRepriseTest.cs" t="Include" />
+          <e p="DijkstraRepriseTest.cs" t="Include" />
+          <e p="GraphBreadthFirstSearchTest.cs" t="Include" />
+          <e p="GraphDepthFirstSearchTest.cs" t="Include" />
+          <e p="LevenshteinDistanceTest.cs" t="Include" />
+          <e p="LinkedList" t="Include">
+            <e p="ReverseLinkedListTest.cs" t="Include" />
+          </e>
+          <e p="MakePalindromeTest.cs" t="Include" />
+          <e p="MergeSortTest.cs" t="Include" />
+          <e p="PrimsAlgorithmTest.cs" t="Include" />
+          <e p="Sorting" t="Include">
+            <e p="SortingTest.cs" t="Include" />
+            <e p="TopologicalSortingTest.cs" t="Include" />
+          </e>
+          <e p="TopologicalGraphSortTest.cs" t="Include" />
+          <e p="ZAlgorithmTest.cs" t="Include" />
+        </e>
+        <e p="Chapter01" t="Include">
+          <e p="Chapter1_1.cs" t="Include" />
+          <e p="Chapter1_1Test.cs" t="Include" />
+          <e p="Chapter1_2.cs" t="Include" />
+          <e p="Chapter1_2Data.cs" t="Include" />
+          <e p="Chapter1_2Test.cs" t="Include" />
+          <e p="Chapter1_3.cs" t="Include" />
+          <e p="Chapter1_3Data.cs" t="Include" />
+          <e p="Chapter1_3Test.cs" t="Include" />
+          <e p="Chapter1_4.cs" t="Include" />
+          <e p="Chapter1_4Data.cs" t="Include" />
+          <e p="Chapter1_4Test.cs" t="Include" />
+          <e p="Chapter1_5.cs" t="Include" />
+          <e p="Chapter1_5Test.cs" t="Include" />
+          <e p="Chapter1_6.cs" t="Include" />
+          <e p="Chapter1_6Data.cs" t="Include" />
+          <e p="Chapter1_6Test.cs" t="Include" />
+          <e p="Chapter1_7Test.cs" t="Include" />
+          <e p="Chapter1_8.cs" t="Include" />
+          <e p="Chapter1_8Test.cs" t="Include" />
+          <e p="Chapter1_9Test.cs" t="Include" />
+        </e>
+        <e p="Chapter02" t="Include">
+          <e p="Chapter2Data.cs" t="Include" />
+          <e p="Chapter2Test.cs" t="Include" />
+          <e p="Chapter2TestBase.cs" t="Include" />
+          <e p="Chapter2_1.cs" t="Include" />
+          <e p="Chapter2_1Data.cs" t="Include" />
+          <e p="Chapter2_1Test.cs" t="Include" />
+          <e p="Chapter2_2.cs" t="Include" />
+          <e p="Chapter2_2Data.cs" t="Include" />
+          <e p="Chapter2_2Data2.cs" t="Include" />
+          <e p="Chapter2_3.cs" t="Include" />
+          <e p="Chapter2_3Test.cs" t="Include" />
+          <e p="Chapter2_4Test.cs" t="Include" />
+          <e p="Chapter2_5.cs" t="Include" />
+          <e p="Chapter2_5Data.cs" t="Include" />
+          <e p="Chapter2_5Test.cs" t="Include" />
+          <e p="Chapter2_6.cs" t="Include" />
+          <e p="Chapter2_6Data.cs" t="Include" />
+          <e p="Chapter2_6Test.cs" t="Include" />
+          <e p="Chapter2_7.cs" t="Include" />
+          <e p="Chapter2_7Data.cs" t="Include" />
+          <e p="Chapter2_7Test.cs" t="Include" />
+          <e p="Chapter2_8Test.cs" t="Include" />
+          <e p="LinkedListWithInit.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+        </e>
+        <e p="Chapter04" t="Include">
+          <e p="Chapter4BaseTestData.cs" t="Include" />
+          <e p="Chapter4_1Test.cs" t="Include" />
+          <e p="Chapter4_2Test.cs" t="Include" />
+          <e p="Graph.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+        </e>
+        <e p="Chapter05" t="Include">
+          <e p="Chapter5_1Test.cs" t="Include" />
+          <e p="Chapter5_2Test.cs" t="Include" />
+          <e p="Chapter5_3.cs" t="Include" />
+          <e p="Chapter5_3Data.cs" t="Include" />
+          <e p="Chapter5_3Test.cs" t="Include" />
+          <e p="Chapter5_6Test.cs" t="Include" />
+          <e p="CommonBitManipulationTest.cs" t="Include" />
+        </e>
+        <e p="Chapter07" t="Include">
+          <e p="Chapter7_2Main.cs" t="Include" />
+          <e p="Chapter7_2Test.cs" t="Include" />
+        </e>
+        <e p="Chapter10" t="Include">
+          <e p="Chapter10_1Main.cs" t="Include" />
+        </e>
+        <e p="CodeSignal" t="Include">
+          <e p="Arcade" t="Include">
+            <e p="SmoothSailing" t="Include">
+              <e p="ReverseParenthesesTest.cs" t="Include" />
+            </e>
+            <e p="ThroughTheFog" t="Include">
+              <e p="StringsRearrangementTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Arrays" t="Include">
+            <e p="FirstDuplicateTest.cs" t="Include" />
+            <e p="FirstNotRepeatingCharacterTest.cs" t="Include" />
+          </e>
+          <e p="Challenges" t="Include">
+            <e p="LastDigitDiffZeroTest.cs" t="Include" />
+            <e p="N7MTest.cs" t="Include" />
+            <e p="PrefixSumsTest.cs" t="Include" />
+            <e p="SortByZTest.cs" t="Include" />
+          </e>
+          <e p="CommonTechniques" t="Include">
+            <e p="SumInRangeTest.cs" t="Include" />
+          </e>
+          <e p="Hashtable" t="Include">
+            <e p="FindLongestSubArrayBySumTest.cs" t="Include" />
+            <e p="PossibleSumsTest.cs" t="Include" />
+            <e p="ProductExceptSelfTest.cs" t="Include" />
+          </e>
+          <e p="InterviewPractice" t="Include">
+            <e p="BackTracking" t="Include">
+              <e p="ClimbingStairCaseTest.cs" t="Include" />
+            </e>
+            <e p="DfsBfs" t="Include">
+              <e p="LongestPathTest.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="CodeWars" t="Include">
+          <e p="Beta" t="Include">
+            <e p="ComGovOrgFirstTest.cs" t="Include" />
+            <e p="TheABProblemTest.cs" t="Include" />
+          </e>
+          <e p="Kyu4" t="Include">
+            <e p="AddingBigNumbersTest.cs" t="Include" />
+            <e p="BattleShipsSunkDamagedOrNotTouchedTest.cs" t="Include" />
+            <e p="CatchingCarMileageNumbersTest.cs" t="Include" />
+            <e p="IPValidationTest.cs" t="Include" />
+            <e p="NextSmallerNumberWithTheSameDigitsTest.cs" t="Include" />
+            <e p="NonBouncyNumberCountTest.cs" t="Include" />
+            <e p="PyramidSlideDownTest.cs" t="Include" />
+            <e p="RangeExtractionTest.cs" t="Include" />
+            <e p="ReversePolishNotationCalculatorTest.cs" t="Include" />
+            <e p="SumStringsAsNumbersTest.cs" t="Include" />
+          </e>
+          <e p="Kyu5" t="Include">
+            <e p="BasicNicoVariationTest.cs" t="Include" />
+            <e p="BitCalculatorTest.cs" t="Include" />
+            <e p="BreakCamelCaseTest.cs" t="Include" />
+            <e p="ComputeTheLargestSumOfAllContiguousSubsequencesTest.cs" t="Include" />
+            <e p="ConvertStringToCamelCaseTest.cs" t="Include" />
+            <e p="DidIFinishMySudokuTest.cs" t="Include" />
+            <e p="DirectionsReductionTest.cs" t="Include" />
+            <e p="DoubleColaTest.cs" t="Include" />
+            <e p="FindTheMissingTermInAnArithmeticProgressionTest.cs" t="Include" />
+            <e p="FirstNonRepeatingLetterTest.cs" t="Include" />
+            <e p="FloodFillTest.cs" t="Include" />
+            <e p="GreedIsGoodTest.cs" t="Include" />
+            <e p="HumanReadableTimeTest.cs" t="Include" />
+            <e p="Int32ToIP4Test.cs" t="Include" />
+            <e p="MixbonacciTest.cs" t="Include" />
+            <e p="OnesAndZeroesAndWildcardsTest.cs" t="Include" />
+            <e p="PaginationHelperTest.cs" t="Include" />
+            <e p="Rot13Test.cs" t="Include" />
+            <e p="ScrambliesTest.cs" t="Include" />
+            <e p="ScytaleEncoderDecoderTest.cs" t="Include" />
+            <e p="SimpleFun155PackManTest.cs" t="Include" />
+            <e p="SimpleFun166BestMatchTest.cs" t="Include" />
+            <e p="SimplePigLatinTest.cs" t="Include" />
+            <e p="TicTacToeCheckerTest.cs" t="Include" />
+            <e p="ValidParenthesesTest.cs" t="Include" />
+            <e p="WeightForWeightTest.cs" t="Include" />
+            <e p="WhatDoesntBelongToTheseTest.cs" t="Include" />
+            <e p="WhereMyAnagramsAtTest.cs" t="Include" />
+          </e>
+          <e p="Kyu6" t="Include">
+            <e p="AFunctionalDeckOfCardsTest.cs" t="Include" />
+            <e p="AreTheyTheSameTest.cs" t="Include" />
+            <e p="ArrayDeepCountTest.cs" t="Include" />
+            <e p="ArrayDiffTest.cs" t="Include" />
+            <e p="BingoCardTest.cs" t="Include" />
+            <e p="BuildTowerTest.cs" t="Include" />
+            <e p="CondiCipherTest.cs" t="Include" />
+            <e p="ConsecutiveStringsTest.cs" t="Include" />
+            <e p="DeleteOccurrencesOfAnElementIfItOccursMoreThanNTimesTest.cs" t="Include" />
+            <e p="DetectPangramTest.cs" t="Include" />
+            <e p="DoesMNumberLookBigInThisTest.cs" t="Include" />
+            <e p="DubstepTest.cs" t="Include" />
+            <e p="DuplicateEncoderTest.cs" t="Include" />
+            <e p="EurekaTest.cs" t="Include" />
+            <e p="ExtensionGroupWhileConsecutiveByTheConditionItemsTest.cs" t="Include" />
+            <e p="FilePathOperationsTest.cs" t="Include" />
+            <e p="FindTheOddIntTest.cs" t="Include" />
+            <e p="FormatWordsIntoASentenceTest.cs" t="Include" />
+            <e p="FunWithTreesMaxSumTest.cs" t="Include" />
+            <e p="GoodVsEvilTest.cs" t="Include" />
+            <e p="HelpTheBookSellerTest.cs" t="Include" />
+            <e p="HighestScoringWordTest.cs" t="Include" />
+            <e p="IQTestTest.cs" t="Include" />
+            <e p="IntegerDepthTest.cs" t="Include" />
+            <e p="LinkedListsInsertNthNodeTest.cs" t="Include" />
+            <e p="LongestPalindromeTest.cs" t="Include" />
+            <e p="MakeTheDeadFishSwimTest.cs" t="Include" />
+            <e p="MazeRunnerTest.cs" t="Include" />
+            <e p="MrSafetysTreasuresTest.cs" t="Include" />
+            <e p="MultiplesOf3And5Test.cs" t="Include" />
+            <e p="ParseALinkedListFromAStringTest.cs" t="Include" />
+            <e p="PersistentBuggerTest.cs" t="Include" />
+            <e p="PrizeDrawTest.cs" t="Include" />
+            <e p="ReducingByStepsTest.cs" t="Include" />
+            <e p="RememberTest.cs" t="Include" />
+            <e p="ReplaceWithAlphabetPositionTest.cs" t="Include" />
+            <e p="ReverseASinglyLinkedListTest.cs" t="Include" />
+            <e p="ReversedWordsTest.cs" t="Include" />
+            <e p="SortTheOddTest.cs" t="Include" />
+            <e p="SplitOddAndEvenTest.cs" t="Include" />
+            <e p="StopgninnipSMysdroWTest.cs" t="Include" />
+            <e p="StreetFighter2CharacterSelectionTest.cs" t="Include" />
+            <e p="StringBreakersTest.cs" t="Include" />
+            <e p="StringLetterCountingTest.cs" t="Include" />
+            <e p="SumTheTreeTest.cs" t="Include" />
+            <e p="TakeATenMinuteWalkTest.cs" t="Include" />
+            <e p="TheBookOfMormonTest.cs" t="Include" />
+            <e p="TriangleNumberCheckTest.cs" t="Include" />
+            <e p="TribonacciSequenceTest.cs" t="Include" />
+            <e p="WhichAreInTest.cs" t="Include" />
+            <e p="WhoLikesItTest.cs" t="Include" />
+            <e p="WordsToHexTest.cs" t="Include" />
+            <e p="YourOrderPleaseTest.cs" t="Include" />
+            <e p="ZeroFillForTheQueenTest.cs" t="Include" />
+          </e>
+          <e p="Kyu7" t="Include">
+            <e p="AllInclusiveTest.cs" t="Include" />
+            <e p="CartesianNeighborsTest.cs" t="Include" />
+            <e p="CompareAStringBySumOfCharsTest.cs" t="Include" />
+            <e p="ComplementaryDnaTest.cs" t="Include" />
+            <e p="ConvertALinkedListToAStringTest.cs" t="Include" />
+            <e p="CountTheDigitTest.cs" t="Include" />
+            <e p="CountingArrayElementsTest.cs" t="Include" />
+            <e p="DisemvowelTrollsTest.cs" t="Include" />
+            <e p="FactorialFactoryTest.cs" t="Include" />
+            <e p="FindTheDuplicatedNumberInAConsecutiveUnsortedListTest.cs" t="Include" />
+            <e p="FindTheStrayNumberTest.cs" t="Include" />
+            <e p="FindTheVowelsTest.cs" t="Include" />
+            <e p="FriendOrFoeTest.cs" t="Include" />
+            <e p="GaussNeedsHelpTest.cs" t="Include" />
+            <e p="GetTheMiddleCharacterTest.cs" t="Include" />
+            <e p="GreatestCommonDivisorTest.cs" t="Include" />
+            <e p="HeadTailInitAndLastTest.cs" t="Include" />
+            <e p="IndexedCapitalizationTest.cs" t="Include" />
+            <e p="IsThisATriangleTest.cs" t="Include" />
+            <e p="IsogramsTest.cs" t="Include" />
+            <e p="JadenCasingStringsTest.cs" t="Include" />
+            <e p="MostDigitsTest.cs" t="Include" />
+            <e p="MoveAllVowelsTest.cs" t="Include" />
+            <e p="MovesInSquaredStringsTest.cs" t="Include" />
+            <e p="NiceArrayTest.cs" t="Include" />
+            <e p="RegexValidatePinCodeTest.cs" t="Include" />
+            <e p="SevenAte9Test.cs" t="Include" />
+            <e p="SortArrayByStringLengthTest.cs" t="Include" />
+            <e p="SumOfASequenceTest.cs" t="Include" />
+            <e p="SumOfAllTheMultiplesOf3Or5Test.cs" t="Include" />
+            <e p="SumOfCubesTest.cs" t="Include" />
+            <e p="SumTimesTablesTest.cs" t="Include" />
+            <e p="SymbolsCountedTest.cs" t="Include" />
+            <e p="TwoToOneTest.cs" t="Include" />
+            <e p="UnflattenAListEasyTest.cs" t="Include" />
+            <e p="WeHaveLiftoffTest.cs" t="Include" />
+            <e p="ZeroBalancedArrayTest.cs" t="Include" />
+          </e>
+          <e p="Kyu8" t="Include">
+            <e p="BeginnerSeriesClockTest.cs" t="Include" />
+            <e p="CalculateBmiTest.cs" t="Include" />
+            <e p="ConvertNumberToReversedArrayOfDigitsTest.cs" t="Include" />
+            <e p="CountByXTest.cs" t="Include" />
+            <e p="CountOfpositivesSumOfNegativesTest.cs" t="Include" />
+            <e p="DuckDuckGooseTest.cs" t="Include" />
+            <e p="FilterOutTheGeeseTest.cs" t="Include" />
+            <e p="FindTheFirstNonConsecutiveNumberTest.cs" t="Include" />
+            <e p="RemoveAllExclamationMarksFromTheEndOfSentenceTest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Core" t="Include" />
+        <e p="DataStructure" t="Include">
+          <e p="LinkedList" t="Include">
+            <e p="ReverseSinglyLinkedListTest.cs" t="Include" />
+          </e>
+          <e p="Tree" t="Include">
+            <e p="BinaryMinHeap.cs" t="Include" />
+            <e p="BinaryTreeTraversalsTest.cs" t="Include" />
+          </e>
+          <e p="TriestTest.cs" t="Include" />
+        </e>
+        <e p="Demo.LearnByDoing.Tests.csproj" t="IncludeRecursive" />
+        <e p="FEM" t="Include">
+          <e p="Algorithms" t="Include">
+            <e p="BinaryTrees" t="Include">
+              <e p="BstTest.cs" t="Include" />
+              <e p="BstTraverseTest.cs" t="Include" />
+            </e>
+            <e p="DataStructures" t="Include">
+              <e p="HashtableTest.cs" t="Include" />
+            </e>
+            <e p="Recursion" t="Include">
+              <e p="ExerciseTest.cs" t="Include" />
+            </e>
+            <e p="Sorting" t="Include">
+              <e p="SortTest.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="GeeksForGeeks" t="Include">
+          <e p="DynamicProgramming" t="Include">
+            <e p="BasicConcepts" t="Include">
+              <e p="01 Overlapping Subproblems Property.cs" t="Include" />
+              <e p="03 How to solve a Dynamic Programming Problem.cs" t="Include" />
+            </e>
+            <e p="BasicProblems" t="Include">
+              <e p="02_Binomial Coefficient.cs" t="Include" />
+              <e p="03 Longest Common Subsequence Test.cs" t="Include" />
+              <e p="LongestCommonSubsequenceTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GraphDataStructureAndAlgorithms" t="Include">
+            <e p="IntroductionToDfsAndBfs" t="Include">
+              <e p="01_Graph and its representations.cs" t="Include" />
+              <e p="02_Breadth First Traversal or BFS for a Graph.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="InterviewCake" t="Include">
+          <e p="MeshMessageTest.cs" t="Include" />
+          <e p="Question001Test.cs" t="Include" />
+          <e p="Question002Test.cs" t="Include" />
+          <e p="Question003Test.cs" t="Include" />
+          <e p="Question004Test.cs" t="Include" />
+          <e p="Question005Test.cs" t="Include" />
+          <e p="Question006Test.cs" t="Include" />
+          <e p="Question007Test.cs" t="Include" />
+          <e p="Question008Test.cs" t="Include" />
+          <e p="Question009Test.cs" t="Include" />
+          <e p="Question012Test.cs" t="Include" />
+          <e p="Question013Test.cs" t="Include" />
+          <e p="Question014Test.cs" t="Include" />
+          <e p="Question015Test.cs" t="Include" />
+          <e p="Question016Test.cs" t="Include" />
+          <e p="Question019Test.cs" t="Include" />
+          <e p="Question020Test.cs" t="Include" />
+          <e p="Question021Test.cs" t="Include" />
+          <e p="Question022Test.cs" t="Include" />
+          <e p="Question023Test.cs" t="Include" />
+          <e p="Question024Test.cs" t="Include" />
+          <e p="Question025Test.cs" t="Include" />
+          <e p="Question026Test.cs" t="Include" />
+          <e p="Question027Test.cs" t="Include" />
+          <e p="Question028Test.cs" t="Include" />
+          <e p="Question029Test.cs" t="Include" />
+          <e p="Question030Test.cs" t="Include" />
+          <e p="Question031Test.cs" t="Include" />
+          <e p="Question032Test.cs" t="Include" />
+          <e p="Question033Test.cs" t="Include" />
+          <e p="Question034Test.cs" t="Include" />
+          <e p="Question035Test.cs" t="Include" />
+          <e p="Question040Test.cs" t="Include" />
+          <e p="Question043Test.cs" t="Include" />
+          <e p="Question046Test.cs" t="Include" />
+        </e>
+        <e p="LeetCode" t="Include">
+          <e p="Hard" t="Include">
+            <e p="LruCacheTest.cs" t="Include" />
+          </e>
+          <e p="Medium" t="Include">
+            <e p="AddTwoNumbersTest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="MissionInterview" t="Include">
+          <e p="01-DataStructures" t="Include">
+            <e p="DoublyLinkedListTest.cs" t="Include" />
+            <e p="DoublySungLinkedList.cs" t="Include" />
+            <e p="LinkedListTest.cs" t="Include" />
+            <e p="QueueTest.cs" t="Include" />
+            <e p="StackTest.cs" t="Include" />
+            <e p="SungGraphTest.cs" t="Include" />
+            <e p="SungLinkedList.cs" t="Include" />
+            <e p="SungQueue.cs" t="Include" />
+            <e p="SungStack.cs" t="Include" />
+            <e p="SungTreeTest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PalinedromeTest.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RandomStuff" t="Include">
+          <e p="BinaryPrintTest.cs" t="Include" />
+          <e p="CountWayTest.cs" t="Include" />
+          <e p="FindDifferencesOnInterviewingIOTest.cs" t="Include" />
+          <e p="FogCreekSupportEngineer1Test.cs" t="Include" />
+          <e p="Glassdoor" t="Include">
+            <e p="Asana" t="Include">
+              <e p="BalancedTreeCheckerTest.cs" t="Include" />
+              <e p="BinarySearchTreeCheckTest.cs" t="Include" />
+              <e p="HungryRabbitTest.cs" t="Include" />
+              <e p="KClosePointsToOriginTest.cs" t="Include" />
+              <e p="MaxHeapTest.cs" t="Include" />
+              <e p="MaxNumbersInSquaresToTravelTest.cs" t="Include" />
+              <e p="MinHeapTest.cs" t="Include" />
+              <e p="TopologicalSortTest.cs" t="Include" />
+            </e>
+            <e p="Zocdoc" t="Include">
+              <e p="FindLcaInBinaryTreeTest.cs" t="Include" />
+              <e p="PalindromeCheckTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GraphTraversalFromScratchTest.cs" t="Include" />
+          <e p="MergeSortTest.cs" t="Include" />
+          <e p="PalindromeUsingXorTest.cs" t="Include" />
+          <e p="PermutablePrimesTest.cs" t="Include" />
+          <e p="PermutateTest.cs" t="Include" />
+          <e p="QuickSortTest.cs" t="Include" />
+          <e p="RecursionTest.cs" t="Include" />
+          <e p="TreeNodeAncestorDecendentCheckTest.cs" t="Include" />
+        </e>
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Demo.LearnByDoing.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive">
+        <e p="NUnit3TestAdapter.3.9.0/build/net35/Mono.Cecil.Mdb.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0/build/net35/Mono.Cecil.Pdb.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0/build/net35/Mono.Cecil.Rocks.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0/build/net35/Mono.Cecil.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0/build/net35/NUnit3.TestAdapter.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0/build/net35/nunit.engine.api.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.9.0/build/net35/nunit.engine.dll" t="Include" />
+      </e>
+    </e>
+  </component>
+  <component name="RiderRiderContentModelStore">
+    <excludedPaths />
+  </component>
+</project>

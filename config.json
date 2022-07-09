@@ -1,0 +1,6 @@
+{
+    // "root": ".\\cs_code\\WindowsFormsApp_helloworld"
+    "root": ".\\cs_code"
+    ,"skip_test_files": true
+    
+}

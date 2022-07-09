@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33B2CA53-9E72-42E9-A5CB-A434FC0A14CC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Demo.LearnByDoing.General</RootNamespace>
+    <AssemblyName>Demo.LearnByDoing.General</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Demo.LearnByDoing.General.Algorithms.Dijkstra.DijkstraProgram</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\AStar\AStarProgram.cs" />
+    <Compile Include="Algorithms\BellmanFord\BellmanFordProgram.cs" />
+    <Compile Include="Algorithms\Dijkstra\DijkstraProgram.cs" />
+    <Compile Include="Algorithms\Graph\Edge.cs" />
+    <Compile Include="Algorithms\Graph\Graph.cs" />
+    <Compile Include="Algorithms\Graph\Node.cs" />
+    <Compile Include="Algorithms\MaximumSubArraySum\MaximumSubArray.cs" />
+    <Compile Include="Algorithms\MaximumSubArraySum\MaximumSubArraySumProgram.cs" />
+    <Compile Include="Algorithms\PalindromePartition\PalindromePartitionProgram.cs" />
+    <Compile Include="ConvertIntegerToArrayProgram.cs" />
+    <Compile Include="FindAllArrayElementsExistInAnotherArrayProgram.cs" />
+    <Compile Include="FindingAllFactorsProgram.cs" />
+    <Compile Include="FindValueInSortedArrayProgram.cs" />
+    <Compile Include="Graph\Graph.cs" />
+    <Compile Include="LinkedList\Node.cs" />
+    <Compile Include="LinkedList\PrintForwardBackwardUsingRecursion.cs" />
+    <Compile Include="LinkedList\ReverseLinkedListIteratively.cs" />
+    <Compile Include="LinkedList\ReverseLinkedListProgram.cs" />
+    <Compile Include="LinkedList\ReverseLinkedListUsingRecursion.cs" />
+    <Compile Include="MinimalTreeGenerationProgram.cs" />
+    <Compile Include="Graph\Node.cs" />
+    <Compile Include="ParsingNumbersPerDigitProgram.cs" />
+    <Compile Include="PrimeFactorizationProgram.cs" />
+    <Compile Include="RemoveDuplicatesProgram.cs" />
+    <Compile Include="Search\FindingFirstLastOccurrenceOfANumberProgram.cs" />
+    <Compile Include="Search\IKmpSearch.cs" />
+    <Compile Include="Search\KmpAlgorithmProgram.cs" />
+    <Compile Include="Search\KmpSearch.cs" />
+    <Compile Include="Search\KmpSearchYouTube.cs" />
+    <Compile Include="Sort\BinarySearchFindFirstLastProgram.cs" />
+    <Compile Include="Sort\BinarySearchProgram.cs" />
+    <Compile Include="Sort\MergeSortProgram.cs" />
+    <Compile Include="Sort\MergeSortProgram2.cs" />
+    <Compile Include="Sort\QuickSortProgram.cs" />
+    <Compile Include="Sort\SelectionSortProgram.cs" />
+    <Compile Include="Sort\SortBasedOnAnotherListProgram.cs" />
+    <Compile Include="Sort\SortedArrayRotationCountProgram.cs" />
+    <Compile Include="Stack\CheckForBalancedParentheses.cs" />
+    <Compile Include="StringPermutationProgram.cs" />
+    <Compile Include="TowerOfHanoiProgram.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tree\BreadthFirstTraversal.cs" />
+    <Compile Include="Tree\LowestCommonAncestorProgram.cs" />
+    <Compile Include="Tree\TreeNode.cs" />
+    <Compile Include="Tree\TreeTraversalProgram.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.LearnByDoing.Core\Demo.LearnByDoing.Core.csproj">
+      <Project>{dca6be29-c6cc-41de-b6a2-366c0b3bc945}</Project>
+      <Name>Demo.LearnByDoing.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
